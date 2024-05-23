@@ -62,11 +62,11 @@ function assignVehiclesCapacity() {
     vehicles.motorcycle(),
   ];
   regions[regionsWeight[1].id].vehicles = [
-    vehicles.car(),
+    vehicles.motorcycle(),
     vehicles.motorcycle(),
   ];
   regions[regionsWeight[2].id].vehicles = [vehicles.car()];
-  regions[regionsWeight[3].id].vehicles = [vehicles.motorcycle()];
+  regions[regionsWeight[3].id].vehicles = [vehicles.car()];
 }
 
 function main() {
